@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Research Intelligence Chatbot  
+# 🚀 AI-Powered Research Intelligence Chatbot (Second Mind)
 
 ## 📌 Overview  
 This project is an **AI-driven research chatbot** leveraging **Retrieval-Augmented Generation (RAG)** with **FAISS, LangChain, and OpenAI's GPT** to provide **efficient document retrieval** and **intelligent research insights**.  
