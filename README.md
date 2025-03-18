@@ -21,11 +21,11 @@ This project is an **AI-driven research chatbot** leveraging **Retrieval-Augment
 
 ## 📂 Folder Structure  
 .gitignore # Ignore unnecessary files
-├── 📄 README.md # Project documentation
-├── 📄 requirements.txt # Dependencies
-├── 📄 create_database.py # Create FAISS vector database
-├── 📄 query_data.py # Query FAISS database
-├── 📄 main.py # FastAPI API for chatbot
+#├── 📄 README.md # Project documentation
+#├── 📄 requirements.txt # Dependencies
+#├── 📄 create_database.py # Create FAISS vector database
+#├── 📄 query_data.py # Query FAISS database
+#├── 📄 main.py # FastAPI API for chatbot
 
 
 ##  Installation & Setup  
