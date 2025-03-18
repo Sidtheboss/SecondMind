@@ -1,47 +1,73 @@
-# Langchain RAG Tutorial
+# 🚀 AI-Powered Research Intelligence Chatbot  
 
-## Install dependencies
+## 📌 Overview  
+This project is an **AI-driven research chatbot** leveraging **Retrieval-Augmented Generation (RAG)** with **FAISS, LangChain, and OpenAI's GPT** to provide **efficient document retrieval** and **intelligent research insights**.  
 
-1. Do the following before installing the dependencies found in `requirements.txt` file because of current challenges installing `onnxruntime` through `pip install onnxruntime`. 
+## ⚙️ Features  
+- 📖 **Context-Aware Responses** – Generates research-based answers using RAG.  
+- 🔍 **Fast Information Retrieval** – Uses FAISS for quick document searches.  
+- 🤖 **Conversational AI** – Uses OpenAI’s GPT model for natural interactions.  
+- 🌐 **Web & API Integration** – Accessible via FastAPI for seamless usage.  
 
-    - For MacOS users, a workaround is to first install `onnxruntime` dependency for `chromadb` using:
+## 🏗️ Tech Stack  
+| Component            | Technology Used            |  
+|----------------------|---------------------------|  
+| **Programming**      | Python                     |  
+| **Framework**        | FastAPI                    |  
+| **AI Model**        | OpenAI GPT                 |  
+| **Embedding Model** | LangChain + OpenAI         |  
+| **Vector Database** | FAISS                      |  
+| **Frontend**        | Streamlit (Optional)       |  
 
-    ```python
-     conda install onnxruntime -c conda-forge
-    ```
-    See this [thread](https://github.com/microsoft/onnxruntime/issues/11037) for additonal help if needed. 
+## 📂 Folder Structure  
+.gitignore # Ignore unnecessary files
+├── 📄 README.md # Project documentation
+├── 📄 requirements.txt # Dependencies
+├── 📄 create_database.py # Create FAISS vector database
+├── 📄 query_data.py # Query FAISS database
+├── 📄 main.py # FastAPI API for chatbot
 
-     - For Windows users, follow the guide [here](https://github.com/bycloudai/InstallVSBuildToolsWindows?tab=readme-ov-file) to install the Microsoft C++ Build Tools. Be sure to follow through to the last step to set the enviroment variable path.
+
+## 🚀 Installation & Setup  
+### 🔹 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/research-chatbot.git  
+cd research-chatbot
+
+ 2️⃣ Install Dependencies
+pip install -r requirements.txt  
+
+3️⃣ Set Up API Keys
+Create a .env file and add your OpenAI API Key:
+
+env
+Copy
+Edit
+OPENAI_API_KEY="your-api-key-here"
+🔹 4️⃣ Run the FAISS Database Setup
+bash
+Copy🛠️ Future Enhancements
+🔗 Integration with Enterprise Knowledge Bases
+🎙️ Use of Nuero AI  & Multimodal Interaction
+🧠 Memory for Contextual Conversations
+🏆 Contributing
+Feel free to submit issues and pull requests to improve the project.
+Edit
+python create_database.py  
+🔹 5️⃣ Start the Chatbot API
+bash
+Copy
+Edit
+uvicorn main:app --reload
+
+📜 License
+This project is licensed under the MIT License.
+
+markdown
+Copy
+Edit
 
 
-2. Now run this command to install dependenies in the `requirements.txt` file. 
 
-```python
-pip install -r requirements.txt
-```
 
-3. Install markdown depenendies with: 
 
-```python
-pip install "unstructured[md]"
-```
-
-## Create database
-
-Create the Chroma DB.
-
-```python
-python create_database.py
-```
-
-## Query the database
-
-Query the Chroma DB.
-
-```python
-python query_data.py "How does Alice meet the Mad Hatter?"
-```
-
-> You'll also need to set up an OpenAI account (and set the OpenAI key in your environment variable) for this to work.
-
-Here is a step-by-step tutorial video: [RAG+Langchain Python Project: Easy AI/Chat For Your Docs](https://www.youtube.com/watch?v=tcqEUSNCn8I&ab_channel=pixegami).
