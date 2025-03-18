@@ -3,6 +3,8 @@
 ## 📌 Overview  
 This project is an **AI-driven research chatbot** leveraging **Retrieval-Augmented Generation (RAG)** with **FAISS, LangChain, and OpenAI's GPT** to provide **efficient document retrieval** and **intelligent research insights**.  
 
+Advancement:- Neuro Symbolic featured AI includes Neural Search with Vector Databases and Multimodal AI.
+
 ##  Features  
 -  **Context-Aware Responses** – Generates research-based answers using RAG.  
 -  **Fast Information Retrieval** – Uses FAISS for quick document searches.  
