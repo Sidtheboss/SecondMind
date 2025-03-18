@@ -21,6 +21,7 @@ Advancement:- Neuro Symbolic featured AI includes Neural Search with Vector Data
 | **Vector Database** | FAISS                      |  
 | **Frontend**        | Streamlit (Optional)       |  
 
+
 📂 The-Second-Mind  
 ├── 📁 data/          → Stores past interactions  
 ├── 📁 models/        → AI models & embeddings  
