@@ -24,10 +24,6 @@ This project is an **AI-driven research chatbot** leveraging **Retrieval-Augment
 ├── 📁 models/        → AI models & embeddings  
 ├── 📁 scripts/       → Utility & automation scripts  
 ├── 📁 src/           → Core project code  
-│   ├── 📁 agents/     → Specialized AI agents  
-│   ├── 📁 retrieval/  → RAG-based knowledge retrieval  
-│   ├── 📁 reasoning/  → Neuro-Symbolic AI logic  
-│   ├── 📁 pipelines/  → Data processing workflows  
 ├── 📜 README.md      → Project documentation  
 ├── 📜 setup.py       → Package setup  
 
