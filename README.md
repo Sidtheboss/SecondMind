@@ -19,13 +19,18 @@ This project is an **AI-driven research chatbot** leveraging **Retrieval-Augment
 | **Vector Database** | FAISS                      |  
 | **Frontend**        | Streamlit (Optional)       |  
 
-## 📂 Folder Structure  
-.gitignore # Ignore unnecessary files
-#├── 📄 README.md # Project documentation
-#├── 📄 requirements.txt # Dependencies
-#├── 📄 create_database.py # Create FAISS vector database
-#├── 📄 query_data.py # Query FAISS database
-#├── 📄 main.py # FastAPI API for chatbot
+The-Second-Mind/
+│── data/                        # Stores past interactions  
+│── models/                      # AI models and embeddings  
+│── scripts/                     # Utility scripts for automation  
+│── src/                         # Main source code  
+│   │── agents/                  # AI agents for processing  
+│   │── pipelines/               # Data processing pipelines  
+│   │── retrieval/               # RAG-based retrieval system  
+│   │── reasoning/               # Neuro-Symbolic AI logic  
+│── README.md                    # Project documentation  
+│── setup.py                     # Package setup configuration  
+
 
 
 ##  Installation & Setup  
