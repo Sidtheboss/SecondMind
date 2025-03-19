@@ -26,11 +26,6 @@
 
 ---
 
-## 📂 Project Structure  
-
-📂 The-Second-Mind ├── 📁 data/ → Stores past interactions ├── 📁 models/ → AI models & embeddings ├── 📁 scripts/ → Utility & automation scripts ├── 📁 src/ → Core project code ├── 📜 README.md → Project documentation ├── 📜 setup.py → Package setup
-
-
 
 ---
 
