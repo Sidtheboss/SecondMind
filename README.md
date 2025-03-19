@@ -1,4 +1,4 @@
-# **Second Mind: AI-Powered Research Intelligence Chatbot**  
+# **Second Mind: AI-Powered Research Intelligence Chatbot (Bosch Software Tech)**  
 
 ### 📌 Overview  
 **Second Mind** is an AI-driven research chatbot designed to deliver intelligent insights with **fast, context-aware document retrieval**. It leverages **Retrieval-Augmented Generation (RAG)** with **FAISS, LangChain, and OpenAI GPT** to enhance research efficiency.  
