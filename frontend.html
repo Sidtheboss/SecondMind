@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Mind - Research Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="sidebar-icon active">
+                <i class="fas fa-message"></i>
+            </div>
+            <div class="sidebar-icon">
+                <i class="fas fa-file-lines"></i>
+            </div>
+            <div class="sidebar-icon">
+                <i class="fas fa-magnifying-glass"></i>
+            </div>
+            <div class="sidebar-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="sidebar-icon">
+                <i class="fas fa-chart-simple"></i>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="header">
+                <div class="brand">
+                    <i class="fas fa-brain" style="color: #0063B2; font-size: 24px;"></i>
+                    <h1>Second Mind</h1>
+                </div>
+                
+                <div class="user-menu">
+                    <button class="user-button">
+                        <i class="fas fa-bell"></i>
+                    </button>
+                    <button class="user-button">
+                        <i class="fas fa-gear"></i>
+                    </button>
+                    <button class="user-button">
+                        <i class="fas fa-user"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <div class="chat-panel">
+                    <div class="chat-messages">
+                        <div class="message bot">
+                            <div class="message-header">
+                                <i class="fas fa-robot"></i>
+                                <span>Second Mind</span>
+                            </div>
+                            <div class="message-content">
+                                Welcome back! I'm ready to assist with your research. How can I help you today?
+                            </div>
+                        </div>
+                        
+                        <div class="message user">
+                            <div class="message-content">
+                                What are the main predictive maintenance strategies for industrial IoT applications?
+                            </div>
+                        </div>
+                        
+                        <div class="message bot">
+                            <div class="message-header">
+                                <i class="fas fa-robot"></i>
+                                <span>Second Mind</span>
+                            </div>
+                            <div class="message-content">
+                                Based on your research documents, industrial IoT predictive maintenance strategies generally fall into four categories:
+                                <br><br>
+                                1. <span class="highlight">Condition-based monitoring</span> - Using real-time sensor data to monitor equipment health indicators and detect anomalies before failures occur.
+                                <br><br>
+                                2. <span class="highlight">Time-series forecasting</span> - Applying machine learning to historical data to predict when components will reach critical wear points or failure thresholds.
+                                <br><br>
+                                3. <span class="highlight">Digital twin simulation</span> - Creating virtual replicas of physical assets to model performance under various conditions and predict maintenance needs.
+                                <br><br>
+                                4. <span class="highlight">Failure mode analysis</span> - Using root cause analysis techniques and ML classification to identify specific failure patterns and their precursors.
+                                <br><br>
+                                Most modern implementations use a hybrid approach combining multiple strategies tailored to specific equipment and operational environments.
+                            </div>
+                            <div class="confidence-meter">
+                                <span>Confidence:</span>
+                                <div class="confidence-bar">
+                                    <div class="confidence-level"></div>
+                                </div>
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input">
+                        <div class="input-container">
+                            <input type="text" placeholder="Ask your research question...">
+                            <div class="input-actions">
+                                <button class="action-button">
+                                    <i class="fas fa-paperclip"></i>
+                                </button>
+                                <button class="action-button">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                                <button class="send-button">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="info-panel">
+                    <div class="info-card">
+                        <div class="card-header">
+                            <div class="card-title">Research Metrics</div>
+                        </div>
+                        <div class="metrics-container">
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="metric-content">
+                                    <div class="metric-value">1,428</div>
+                                    <div class="metric-label">Indexed Documents</div>
+                                </div>
+                            </div>
+                            
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="metric-content">
+                                    <div class="metric-value">0.42s</div>
+                                    <div class="metric-label">Average Response Time</div>
+                                </div>
+                            </div>
+                            
+                            <div class="metric-card">
+                                <div class="metric-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="metric-content">
+                                    <div class="metric-value">94.8%</div>
+                                    <div class="metric-label">Accuracy Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="card-header">
+                            <div class="card-title">Reference Sources</div>
+                        </div>
+                        <ul class="sources-list">
+                            <li class="source-item">
+                                <div class="source-icon">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="source-info">
+                                    <div class="source-name">Industrial IoT Whitepaper</div>
+                                    <div class="source-date">2023 • Bosch Research</div>
+                                </div>
+                            </li>
+                            <li class="source-item">
+                                <div class="source-icon">
+                                    <i class="fas fa-file-lines"></i>
+                                </div>
+                                <div class="source-info">
+                                    <div class="source-name">Predictive Maintenance Guide</div>
+                                    <div class="source-date">Q3 2023 • Technical Report</div>
+                                </div>
+                            </li>
+                            <li class="source-item">
+                                <div class="source-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="source-info">
+                                    <div class="source-name">Maintenance Analytics</div>
+                                    <div class="source-date">2023 • Internal Research</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
